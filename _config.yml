@@ -1,6 +1,6 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          Der Starker Wille
+description:    "Becoming the Overman"
 # baseurl:        "/derstarkerwille"
 url:            "https://derstarkerwille.github.io/derstarkerwille"
 
@@ -29,6 +29,11 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   # - jemoji #Uncomment this to allow emoji in your post
+  
+#Adding stories 
+ collections:
+  stories:
+    output: true
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
